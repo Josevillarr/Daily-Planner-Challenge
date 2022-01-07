@@ -19,10 +19,15 @@ h1 {
     text-shadow: 0 0 20px black;
 }
 
+.page-time, h2 {
+    text-align: center;
+}
+
 .col {
-    border: 3px solid whitesmoke;
+    border: 1px solid slategrey;
+    border-radius: 5px;
     background-color: wheat;
-    color: orangered;
+    color: slategrey;
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
@@ -33,5 +38,4 @@ h1 {
 .btn {
     border: none;
     color: orchid;
-    background-color: palegreen;
 }
