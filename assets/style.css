@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: steelblue;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: aqua;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Anton", sans-serif;
+    text-shadow: 0 0 20px black;
+}
+
+.col {
+    border: 3px solid whitesmoke;
+    background-color: wheat;
+    color: orangered;
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn {
+    border: none;
+    color: orchid;
+    background-color: palegreen;
+}
