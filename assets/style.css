@@ -2,36 +2,75 @@
     box-sizing: border-box;
 }
 
+.hide {
+    opacity: 0;
+}
 
 body {
-    background-color: steelblue;
+    background-color: #D8C9E3;
     padding: 0;
     margin: 0;
 }
 
+.container {
+    background: radial-gradient(aqua, blue);
+    border-radius: 3px;
+
+   
+}
+
 h1 {
-    color: aqua;
+    color: #08B2E3;
     padding: 20px;
     margin: 0;
     text-align: center;
     font-size: 100px;
     font-family: "Anton", sans-serif;
-    text-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px white;
+    -webkit-text-stroke: 3px #484D6D;
+}
+
+.page-time, h2 {
+    text-align: center;
 }
 
 .col {
-    border: 3px solid whitesmoke;
-    background-color: wheat;
-    color: orangered;
+    border-radius: 7px;
+    background: linear-gradient(to right, rgb(70,102,190), whitesmoke);
+    color: slategrey;
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
     flex-wrap: wrap;
     flex-direction: column;
+    box-shadow: 0 0 30px rgb(77, 55, 55);
+}
+
+.hour {
+    font-size: 20px;
+    color: rgb(117, 11, 11);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#event-message {
+    width: 75%;
 }
 
 .btn {
     border: none;
     color: orchid;
-    background-color: palegreen;
+
 }
+
+
+
+
+
+/* 
+#EE6352 Fire Opal
+#08B2E3 Cyan Process
+#D8C9E3 Languid Lavender
+#57A773 Forest Green Crayola
+#484D6D Independence
+*/
